@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy 3rd Mensiversary | Kalingga & Mei</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body data-pin="2105">
+
+<audio id="bgMusic" loop>
+    <source src="an-art-gallery-could-never-be-as-unique-as-you.mp3" type="audio/mpeg">
+</audio>
+
+<!-- =========================
+     LOADER
+========================= -->
+
+<div id="loader">
+
+    <div class="loader-book"></div>
+
+    <p>
+        Preparing our memories...
+    </p>
+
+</div>
+
+
+<!-- =========================
+     PIN SCREEN
+========================= -->
+
+<section id="pinScreen">
+
+    <div class="pin-card">
+
+        <h1>🖤</h1>
+
+        <h2>
+            A Little Place
+            Made For You
+        </h2>
+
+        <p>
+            Some memories are only
+            meant for us.
+        </p>
+
+        <p>
+            Enter the secret code
+            to open our scrapbook.
+        </p>
+
+        <input
+            type="password"
+            id="pinInput"
+            maxlength="4"
+            inputmode="numeric"
+            placeholder="••••"
+            autocomplete="off"
+        >
+
+        <button id="unlockBtn">
+            Open Our Memory
+        </button>
+
+        <p id="pinError"></p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MAIN WEBSITE
+========================= -->
+
+<div id="website">
+
+
+    <!-- =========================
+         COVER / HERO
+    ========================= -->
+
+    <section class="hero">
+
+        <div class="floating-stars"></div>
+
+        <div class="hero-content">
+
+            <span class="badge">
+                3rd Mensiversary
+            </span>
+
+            <h1>
+                Kalingga
+                <span>♡</span>
+                Mei
+            </h1>
+
+            <p>
+                Three months,
+                countless memories,
+                one beautiful story.
+            </p>
+
+            <button id="openBookBtn">
+                Open Our Story 📖
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCRAPBOOK
+    ========================= -->
+
+    <main id="scrapbook">
+
+
+        <!-- =========================
+             CHAPTER 1
+        ========================= -->
+
+        <section class="chapter intro">
+
+            <div class="paper-card">
+
+                <span class="chapter-number">
+                    CHAPTER 01
+                </span>
+
+                <h2>
+                    Our Little Story
+                </h2>
+
+                <p>
+                    Three months ago,
+                    two people started writing
+                    a story together.
+                </p>
+
+                <p>
+                    And somehow,
+                    the simplest moments
+                    became the ones
+                    worth remembering forever.
+                </p>
+
+            </div>
+
+
+            <div class="cover-photo">
+
+                <img
+                    src="foto1.jpg"
+                    alt="Kalingga and Mei"
+                >
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CHAPTER 2
+             POLAROID MEMORIES
+        ========================= -->
+
+        <section class="chapter memories">
+
+            <span class="chapter-number">
+                CHAPTER 02
+            </span>
+
+            <h2 class="section-title">
+                Little Moments 📸
+            </h2>
+
+            <p class="section-subtitle">
+                Ten little pieces of our story.
+            </p>
+
+
+            <div class="polaroid-grid">
+
+
+                <div class="polaroid rotate-left">
+
+                    <div class="tape black"></div>
+
+                    <img
+                        src="foto2.jpg"
+                        alt="Memory 1"
+                    >
+
+                    <span>
+                        one of my favorites
+                    </span>
+
+                </div>
+
+
+
+                <div class="polaroid rotate-right">
+
+                    <div class="tape white"></div>
+
+                    <img
+                        src="foto3.jpg"
+                        alt="Memory 2"
+                    >
+
+                    <span>
+                        you make me smile
+                    </span>
+
+                </div>
+
+
+
+                <div class="polaroid rotate-left">
+
+                    <div class="tape black"></div>
+
+                    <img
+                        src="foto4.jpg"
+                        alt="Memory 3"
+                    >
+
+                    <span>
+                        a moment worth keeping
+                    </span>
+
+                </div>
+
+
+
+                <div class="polaroid rotate-right">
+
+                    <div class="tape white"></div>
+
+                    <img
+                        src="foto5.jpg"
+                        alt="Memory 4"
+                    >
+
+                    <span>
+                        my favorite person
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CHAPTER 3
+             LETTER
+        ========================= -->
+
+        <section class="chapter letter-section">
+
+            <span class="chapter-number">
+                CHAPTER 03
+            </span>
+
+            <h2 class="section-title">
+                A Letter For You 💌
+            </h2>
+
+            <div class="envelope-container">
+
+
+                <div id="openLetter" class="envelope">
+
+                    <div class="envelope-front">
+                        Open Me 🖤
+                    </div>
+
+                </div>
+
+
+                <div id="letterPaper" class="letter-paper">
+
+                    <h3>
+                        Happy 3rd Monthsary
+                    </h3>
+
+
+                    <p>
+                        Happy 3rd monthsary, my love.
+                        I can’t believe it’s already been
+                        three months since we started this
+                        journey together. It may seem like
+                        a short time, but these three months
+                        have already given me so many
+                        beautiful memories with you.
+                    </p>
+
+
+                    <p>
+                        Thank you for always being there,
+                        for making me smile, and for being
+                        someone I can share my days with.
+                        I’m really grateful for every little
+                        moment we’ve had, whether it was
+                        something special or just a simple
+                        conversation between us.
+                    </p>
+
+
+                    <p>
+                        I know we’re not perfect, and we
+                        might have our ups and downs, but
+                        I hope we’ll always choose to
+                        understand each other, communicate,
+                        and keep growing together. I hope
+                        we can make many more memories,
+                        celebrate more months together,
+                        and continue being a part of each
+                        other’s lives.
+                    </p>
+
+
+                    <p>
+                        Thank you for being you and for
+                        being someone so special to me.
+                        Happy 3rd monthsary to us!
+                        I love you so much, sayang ❤️
+                    </p>
+
+
+                    <span>
+                        — Kalingga 🖤
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CHAPTER 4
+             FILM ROLL
+        ========================= -->
+
+        <section class="chapter film-section">
+
+            <span class="chapter-number">
+                CHAPTER 04
+            </span>
+
+            <h2 class="section-title">
+                Our Film Roll 🎞️
+            </h2>
+
+            <p class="section-subtitle">
+                Moments that deserve to be replayed.
+            </p>
+
+
+            <div class="film-roll">
+
+                <div class="film-frame">
+
+                    <img
+                        src="foto6.jpg"
+                        alt="Memory 5"
+                    >
+
+                </div>
+
+
+                <div class="film-frame">
+
+                    <img
+                        src="foto7.jpg"
+                        alt="Memory 6"
+                    >
+
+                </div>
+
+
+                <div class="film-frame">
+
+                    <img
+                        src="foto8.jpg"
+                        alt="Memory 7"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <p class="film-caption">
+                Swipe slowly and relive every moment.
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             CHAPTER 5
+             QUIZ
+        ========================= -->
+
+        <section class="chapter quiz-section">
+
+            <span class="chapter-number">
+                CHAPTER 05
+            </span>
+
+            <h2 class="section-title">
+                Memory Check 🫶
+            </h2>
+
+            <p class="section-subtitle">
+                Let's see how well you remember us.
+            </p>
+
+
+            <div class="quiz-box">
+
+
+                <!-- QUESTION 1 -->
+
+                <div class="question">
+
+                    <span>
+                        Question 01
+                    </span>
+
+                    <p>
+                        The date we got together?
+                    </p>
+
+                    <input
+                        type="text"
+                        id="answer1"
+                        placeholder="DD-MM-YYYY"
+                        autocomplete="off"
+                    >
+
+                </div>
+
+
+
+                <!-- QUESTION 2 -->
+
+                <div class="question">
+
+                    <span>
+                        Question 02
+                    </span>
+
+                    <p>
+                        Our little bear's name?
+                    </p>
+
+                    <input
+                        type="text"
+                        id="answer2"
+                        placeholder="What's the name?"
+                        autocomplete="off"
+                    >
+
+                </div>
+
+
+                <button id="checkQuiz">
+                    Unlock Special Memory ✨
+                </button>
+
+
+                <p id="quizResult"></p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CHAPTER 6
+             SPECIAL MEMORY
+        ========================= -->
+
+        <section
+            id="specialMemory"
+            class="chapter special-memory"
+        >
+
+            <span class="chapter-number">
+                CHAPTER 06
+            </span>
+
+            <h2 class="section-title">
+                Special Memory 🤍
+            </h2>
+
+            <p class="section-subtitle">
+                You unlocked something special.
+            </p>
+
+
+            <div class="memory-reveal">
+
+
+                <div class="blur-photo">
+
+                    <img
+                        id="specialPhoto"
+                        src="foto9.jpg"
+                        alt="Special Memory"
+                    >
+
+                </div>
+
+
+                <button id="revealBtn">
+                    Reveal Memory ✨
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CHAPTER 7
+             RELATIONSHIP COUNTER
+        ========================= -->
+
+        <section class="chapter counter-section">
+
+            <span class="chapter-number">
+                CHAPTER 07
+            </span>
+
+            <h2 class="section-title">
+                Since May 21, 2026 ⏳
+            </h2>
+
+            <p class="section-subtitle">
+                Every second with you matters.
+            </p>
+
+
+            <div class="counter-card">
+
+
+                <div class="counter-item">
+
+                    <h3 id="days">
+                        0
+                    </h3>
+
+                    <span>
+                        Days
+                    </span>
+
+                </div>
+
+
+
+                <div class="counter-item">
+
+                    <h3 id="hours">
+                        0
+                    </h3>
+
+                    <span>
+                        Hours
+                    </span>
+
+                </div>
+
+
+
+                <div class="counter-item">
+
+                    <h3 id="minutes">
+                        0
+                    </h3>
+
+                    <span>
+                        Minutes
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CHAPTER 8
+             FINAL PHOTO
+        ========================= -->
+
+        <section class="chapter ending-photo">
+
+            <div class="final-card">
+
+                <img
+                    src="foto10.jpg"
+                    alt="Kalingga and Mei"
+                >
+
+
+                <h2>
+                    You Are My Favorite Chapter
+                </h2>
+
+
+                <p>
+                    Out of all the beautiful things
+                    in this world, I'm glad
+                    I found you.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CHAPTER 9
+             SECRET MESSAGE
+        ========================= -->
+
+        <section class="chapter secret-section">
+
+            <span class="chapter-number">
+                CHAPTER 09
+            </span>
+
+            <h2 class="section-title">
+                Hidden Message 🌟
+            </h2>
+
+
+            <p class="hint-text">
+                ✨ Ada pesan rahasia yang sedang
+                menunggu. Coba sentuh semua bintang
+                untuk menemukannya.
+            </p>
+
+
+            <p id="starProgress">
+                Find all the stars (0/5)
+            </p>
+
+
+            <div class="stars-box">
+
+                <div class="star secret-star">
+                    ⭐
+                </div>
+
+                <div class="star secret-star">
+                    ⭐
+                </div>
+
+                <div class="star secret-star">
+                    ⭐
+                </div>
+
+                <div class="star secret-star">
+                    ⭐
+                </div>
+
+                <div class="star secret-star">
+                    ⭐
+                </div>
+
+            </div>
+
+
+            <div id="secretMessage">
+
+                <p>
+                    If I had to choose again,
+                    I'd still choose you.
+                </p>
+
+                <h3>
+                    🖤✨
+                </h3>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ENDING
+        ========================= -->
+
+        <section class="chapter ending">
+
+            <div class="ending-card">
+
+                <span>
+                    21.05.2026
+                </span>
+
+
+                <h2>
+                    Happy 3rd Mensiversary
+                </h2>
+
+
+                <p>
+                    Three months down,
+                    and hopefully
+                    a lifetime to go.
+                </p>
+
+
+                <p>
+                    Thank you for being part
+                    of my happiest memories.
+                </p>
+
+
+                <h3>
+                    Kalingga ♡ Mei
+                </h3>
+
+
+                <button id="replayBtn">
+                    Replay Our Memories 📖
+                </button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+                      </html>
